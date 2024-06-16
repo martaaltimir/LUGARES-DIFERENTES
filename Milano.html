@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milano</title>
+</head>
+<!-----------------------------FOOTER---------------------------------->
+<div class="footer-container"> 
+    <div class="footer">
+        <div class="footer-heading-footer-1">
+            <h3>ABOUT ME</h3>
+            <a href="whoiam.html">Who I am</a>
+            <a href="https://www.instagram.com/martaaltimir/?hl=es" target="_blank">Social Media</a>
+            <a href="https://www.instagram.com/martaaltimir/?hl=es"> <i class="fa-solid fa-camera-retro"></i></a>
+        </div>
+         <div class="footer-heading-footer-2">
+            <h3>CONTACT</h3>
+            <a href="mailto:martaag18@gmail.com">Email</a>
+        </div>
+
+    </div>
+</div>
+<body>
+<!-----------------------------HEADER---------------------------------->
+<header>
+    <nav>
+    <div class="listcountries">
+    <ul>
+        <li><a href="#" onmouseover="toggleMenuSpain()">SPAIN</a></li>
+        <div class="sub-menu-wrapSpain" id="subMenuSpain">
+            <div class="sub-menuSpain">
+                <p><a href="Canarias.html">Canarias</a></p>
+                <p><a href="Pamplona.html">Pamplona</a></p>
+                <p><a href="Arfa.html">Arfa</a></p>            
+            </div>
+        </div>
+        <li> <a href="#" onmouseover="toggleMenuEurope()">EUROPE</a></li>
+        <div class="sub-menu-wrapEurope" id="subMenuEurope">
+            <div class="sub-menuEurope">
+                <p><a href="Malta.html">Malta</a></p>
+                <p><a href="Paris.html">Paris</a></p>
+                <p><a href="Canarias.html">Canarias</a></p>
+                <p><a href="Amalfi.html">Amalfi</a></p>
+                <p><a href="Pamplona.html">Pamplona</a></p>
+                <p><a href="Milano.html">Milano</a></p>
+                <p><a href="Praga.html">Praga</a></p>
+                <p><a href="Arfa.html">Arfa</a></p>
+            </div>
+        </div>    
+        <li>AFRICA</li>
+        <li>AMERICA</li>
+        <li><a href="#" onmouseover="toggleMenuAsia()">ASIA</a></li>
+        <div class="sub-menu-wrapAsia" id="subMenuAsia">
+            <div class="sub-menuAsia">
+                <p><a href="SriLanka.html">Sri Lanka</a></p>
+            </div>
+        </div>  
+        <li><a href="#" onmouseover="toggleMenuOceania()">OCEANIA</a></li>
+        <div class="sub-menu-wrapOceania" id="subMenuOceania">
+            <div class="sub-menuOceania">
+                <p><a href="Australia.html">Australia</a></p>
+            </div>
+        </div> 
+        <li>OTHERS</li>
+    </ul>
+    </div>
+    </nav>
+</header>
+<h1>LUGARES DIFERENTES</h1>
+<!-----------------------------END HEADER---------------------------------->
+<body>
+    <h2>Milano</h2>
+    <p> 
+---------------
+    </p>
+
+    <div class="ContainerMilano">
+        <div class="slider-wrapperMilano">
+            <div class="image-listMilano">
+                <img class="image-itemMilano" src="Images/Milano/Milano0.JPG">
+                <img class="image-itemMilano" src="Images/Milano/Milano1.jpg">
+                <img class="image-itemMilano" src="Images/Milano/Milano3.JPG">
+                <img class="image-itemMilano" src="Images/Milano/Milano4.JPG">
+                <img class="image-itemMilano" src="Images/Milano/Milano5.JPG">
+                <img class="image-itemMilano" src="Images/Milano/Milano6.JPG">
+                <img class="image-itemMilano" src="Images/Milano/Milano7.JPG">
+                <img class="image-itemMilano" src="Images/Milano/Milano8.JPG">
+                <img class="image-itemMilano" src="Images/Milano/Milano10.JPG">
+                <img class="image-itemMilano" src="Images/Milano/Milano11.JPG">
+             </div>
+        </div>
+     </div>
+
+    
+</body>
+<!-----------------------------SCRIPT---------------------------------->
+<script>
+    let subMenuSpain = document.getElementById("subMenuSpain");
+    function toggleMenuSpain(){
+        subMenuSpain.classList.toggle("open-menu");
+    }
+    let subMenuEurope = document.getElementById("subMenuEurope");
+    function toggleMenuEurope(){
+        subMenuEurope.classList.toggle("open-menu");
+    }
+    let subMenuAsia = document.getElementById("subMenuAsia");
+    function toggleMenuAsia(){
+        subMenuAsia.classList.toggle("open-menu");
+    }
+    let subMenuOceania = document.getElementById("subMenuOceania");
+    function toggleMenuOceania(){
+        subMenuOceania.classList.toggle("open-menu");
+    }
+</script>
+</html>

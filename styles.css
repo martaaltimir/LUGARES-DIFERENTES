@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    Padding: 0px;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+/*----------------------NAVEGADOR INICIO------------------------*/
+header{
+    background-color: rgb(245, 240, 240);
+    font-weight: 200;
+    font-size: 15px;
+    height: 50px;
+    text-align: left;
+}
+
+.listcountries {
+    display: inline-block;
+}
+
+nav ul {
+    width: 100%;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 20px;
+}
+nav p {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.listcountries ul li :hover{
+    font-weight: 380;
+}
+.sub-menu-wrapSpain {
+position: absolute;
+max-height: 0px;
+overflow: hidden;
+transition: max-height 0,5s;
+background-color: rgb(245, 240, 240);
+}
+.sub-menu-wrapSpain.open-menu{
+    max-height: 400px;
+    padding: 10px;
+}
+.sub-menuSpain :hover{
+    font-weight: 380;
+}
+.sub-menu-wrapEurope {
+    position: absolute;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0,5s;
+    background-color: rgb(245, 240, 240);
+    }
+.sub-menu-wrapEurope.open-menu{
+    max-height: 400px;
+    padding: 10px;
+    margin-left: 100px;
+}
+.sub-menuEurope :hover{
+    font-weight: 380;
+}
+.sub-menu-wrapAsia {
+    position: absolute;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0,5s;
+    background-color: rgb(245, 240, 240);
+    }
+.sub-menu-wrapAsia.open-menu{
+    max-height: 400px;
+    padding: 10px;
+    position: justify;
+    margin-left: 420px;
+}
+.sub-menuAsia :hover{
+    font-weight: 380;
+}
+.sub-menu-wrapOceania {
+    position: absolute;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0,5s;
+    background-color: rgb(245, 240, 240);
+    }
+.sub-menu-wrapOceania.open-menu{
+    max-height: 400px;
+    padding: 10px;
+    position: justify;
+    margin-left: 510px;
+}
+.sub-menuOceania :hover{
+    font-weight: 380;
+}
+/*----------------------NAVEGADOR FIN------------------------*/
+/*----------------------FIRST PAGE------------------------*/
+h1{
+
+    color: rgb(9, 9, 9);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    font-size: 80px;
+    font-weight: 280;
+    letter-spacing: 5px;
+}
+
+h2{
+        color: rgb(9, 9, 9);
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-weight: 250;
+        font-size: 30px;
+    }
+h3{
+        color: rgb(9, 9, 9);
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-weight: 250;
+        font-size: 13px;
+    } 
+h4{
+        color: rgb(9, 9, 9);
+        margin-top: 30px;
+        font-weight: 250;
+        font-size: 20px;
+    }      
+
+body{
+    padding: 20px 20px;
+    position: relative;
+    min-height: 270vh;
+    padding-bottom: 70px;
+    height: 100%;
+}
+p{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 200;
+    color: black;  
+    font-size: 18px;
+    text-align: justify;
+}
+
+img{
+    width: 330px;
+    height: 270px;
+}
+
+.firstRow{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+.secondRow{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+.thirdRow{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.containerMalta {
+    width: 360px;
+    padding: 10px;
+    text-align: center;
+
+}
+.containerParis {
+    width: 360px;
+    padding: 10px;
+    text-align: center;
+
+}
+.containerCanarias {
+    width: 360px;
+    padding: 10px;
+    text-align: center;
+
+}
+.containerAmalfi {
+    width: 360px;
+    padding: 10px;
+    text-align: center;
+
+}
+.containerPamplona {
+    width: 360px;
+    padding: 10px;
+    text-align: center;
+}
+.containerMilano {
+    width: 360px;
+    padding: 10px;
+    text-align: center;
+}
+.containerPraga {
+    width: 360px;
+    padding: 10px;
+    text-align: center;
+}
+.containerArfa {
+    width: 360px;
+    padding: 10px;
+    text-align: center;
+}
+.containerAustralia {
+    width: 350px;
+    padding: 10px;
+    text-align: center;
+}
+.containerSriLanka {
+    width: 350px;
+    padding: 10px;
+    text-align: center;
+}
+/*----------------------MALTA.HTML------------------------*/
+.containerMalta2 {
+
+    width:100%;
+    padding: 10px;
+    align-items: center;
+    margin-top: 70px;
+
+}
+
+.slider-wrapperMalta .image-listMalta  {
+    
+    display:grid;
+    gap: 18px;
+    font-size:0;
+    overflow-x: auto;
+    scrollbar-width: none;
+    grid-template-columns:repeat(11,1fr);
+
+}
+
+.slider-wrapperMalta .image-listMalta .image-itemMalta {
+    width: 420px;
+    height: 350px;
+    object-fit: cover;
+}
+/*----------------------PARIS.HTML------------------------*/
+.containerParis2 {
+
+    width:100%;
+    padding: 10px;
+    align-items: center;
+    margin-top: 70px;
+
+}
+
+.slider-wrapperParis .image-listParis  {
+    
+    display:grid;
+    gap: 18px;
+    font-size:0;
+    overflow-x: auto;
+    scrollbar-width: none;
+    grid-template-columns:repeat(11,1fr);
+
+}
+
+.slider-wrapperParis .image-listParis .image-itemParis {
+    width: 420px;
+    height: 350px;
+    object-fit: cover;
+}
+/*----------------------CANARIAS.HTML------------------------*/
+.containerCanarias2 {
+
+    width:100%;
+    padding: 10px;
+    align-items: center;
+    margin-top: 70px;
+
+}
+
+.slider-wrapperCanarias .image-listCanarias  {
+    
+    display:grid;
+    gap: 18px;
+    font-size:0;
+    overflow-x: auto;
+    scrollbar-width: none;
+    grid-template-columns:repeat(14,00fr);
+
+}
+
+.slider-wrapperCanarias .image-listCanarias .image-itemCanarias {
+    width: 420px;
+    height: 350px;
+    object-fit: cover;
+}
+/*----------------------AMALFI.HTML------------------------*/
+
+.containerAmalfi2 {
+
+    width:100%;
+    padding: 10px;
+    align-items: center;
+    margin-top: 70px;
+
+}
+
+.slider-wrapperAmalfi .image-listAmalfi  {
+    
+    display:grid;
+    gap: 18px;
+    font-size:0;
+    overflow-x: auto;
+    scrollbar-width: none;
+    grid-template-columns:repeat(19,1fr);
+
+}
+
+.slider-wrapperAmalfi .image-listAmalfi .image-itemAmalfi {
+    width: 420px;
+    height: 350px;
+    object-fit: cover;
+}
+/*----------------------PAMPLONA.HTML------------------------*/
+
+.containerPamplona2 {
+
+    width:100%;
+    padding: 10px;
+    align-items: center;
+    margin-top: 70px;
+
+}
+
+.slider-wrapperPamplona .image-listPamplona  {
+    
+    display:grid;
+    gap: 18px;
+    font-size:0;
+    overflow-x: auto;
+    scrollbar-width: none;
+    grid-template-columns:repeat(18,1fr);
+
+}
+
+.slider-wrapperPamplona .image-listPamplona .image-itemPamplona {
+    width: 420px;
+    height: 350px;
+    object-fit: cover;
+}
+/*----------------------MILANO.HTML------------------------*/
+.containerMilano2 {
+
+    width:100%;
+    padding: 10px;
+    align-items: center;
+    margin-top: 70px;
+
+}
+
+.slider-wrapperMilano .image-listMilano {
+    
+    display:grid;
+    gap: 18px;
+    font-size:0;
+    overflow-x: auto;
+    scrollbar-width: none;
+    grid-template-columns:repeat(18,0fr);
+
+}
+
+.slider-wrapperMilano .image-listMilano .image-itemMilano {
+    width: 420px;
+    height: 350px;
+    object-fit: cover;
+}
+/*----------------------PRAGA.HTML------------------------*/
+.containerPraga2 {
+
+    width:100%;
+    padding: 10px;
+    align-items: center;
+    margin-top: 70px;
+
+}
+
+.slider-wrapperPraga .image-listPraga {
+    
+    display:grid;
+    gap: 18px;
+    font-size:0;
+    overflow-x: auto;
+    scrollbar-width: none;
+    grid-template-columns:repeat(15,0fr);
+
+}
+
+.slider-wrapperPraga .image-listPraga .image-itemPraga {
+    width: 420px;
+    height: 350px;
+    object-fit: cover;
+}
+/*----------------------ARFA.HTML------------------------*/
+.containerArfa2 {
+
+    width:100%;
+    padding: 10px;
+    align-items: center;
+    margin-top: 70px;
+
+}
+
+.slider-wrapperArfa .image-listArfa {
+    
+    display:grid;
+    gap: 18px;
+    font-size:0;
+    overflow-x: auto;
+    scrollbar-width: none;
+    grid-template-columns:repeat(14,0fr);
+
+}
+
+.slider-wrapperArfa .image-listArfa .image-itemArfa {
+    width: 420px;
+    height: 350px;
+    object-fit: cover;
+}
+/*----------------------AUSTRALIA.HTML------------------------*/
+.containerAustralia2 {
+
+    width:100%;
+    padding: 10px;
+    align-items: center;
+    margin-top: 70px;
+
+}
+
+.slider-wrapperAustralia .image-listAustralia {
+    
+    display:grid;
+    gap: 18px;
+    font-size:0;
+    overflow-x: auto;
+    scrollbar-width: none;
+    grid-template-columns:repeat(14,0fr);
+
+}
+
+.slider-wrapperAustralia .image-listAustralia .image-itemAustralia {
+    width: 420px;
+    height: 350px;
+    object-fit: cover;
+}
+/*----------------------SRI LANKA.HTML------------------------*/
+.containerSriLanka2 {
+
+    width:100%;
+    padding: 10px;
+    align-items: center;
+    margin-top: 70px;
+
+}
+
+.slider-wrapperSriLanka .image-listSriLanka {
+    
+    display:grid;
+    gap: 18px;
+    font-size:0;
+    overflow-x: auto;
+    scrollbar-width: none;
+    grid-template-columns:repeat(19,0fr);
+
+}
+
+.slider-wrapperSriLanka .image-listSriLanka .image-itemSriLanka {
+    width: 420px;
+    height: 350px;
+    object-fit: cover;
+}
+/*----------------------FOOTER------------------------*/
+
+.footer-container {
+
+    background-color: rgb(243, 240, 240);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 160px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.footer {
+    
+    background-color: rgb(243, 240, 240);
+  
+}
+
+.footer-heading-footer-1 a {
+
+    background-color: rgb(243, 240, 240);
+    padding: 0px 10px;
+   
+
+}
+
+.footer-heading-footer-1 a:hover {
+
+    background-color: white;
+    
+   
+}
+
+.footer-heading-footer-2 a:hover{
+
+    background-color: white;
+}
+
+.footer-heading-footer-2 {
+   
+ padding-top: 20px;
+
+}
